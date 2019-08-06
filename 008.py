@@ -2,8 +2,7 @@ T = int(input())
 
 for _ in range(T):
     numbers = list(map(int, input().split()))
-    N = numbers[0]
-    K = numbers[1]
+    N, K = numbers[0], numbers[1]
 
     NUM  = input()
     maxi = 0

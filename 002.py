@@ -1,11 +1,10 @@
 T = int(input())
 
-MAX = 4*(10**16)
-MIN = 10
+MIN, MAX = 10, 4*(10**16)
 
 l = []
-x = 1
-y = 1
+x, y = 1, 1
+
 while True:
     z = x + y
     if z % 2 == 0:
@@ -14,7 +13,6 @@ while True:
     if z > MAX:
         break
 
-suml = [2]
 
 for i in range(T):
     N = int(input())

@@ -1,5 +1,5 @@
 T = int(input())
-for a0 in range(T):
+for _ in range(T):
     n = int(input())
     maximum = -1
     N = n // 3

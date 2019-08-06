@@ -12,7 +12,7 @@ def palindromes():
 
 T = int(input())
 ll = palindromes()
-print(len(ll))
+
 for _ in range(T):
     N = int(input())
     maxi = ll[0]

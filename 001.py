@@ -1,5 +1,5 @@
-t = int(input().strip())
-for a0 in range(t):
+T = int(input())
+for _ in range(T):
     n = int(input().strip())
     n = n - 1
     x1 = n // 3
